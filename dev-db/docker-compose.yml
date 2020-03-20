@@ -1,0 +1,16 @@
+# This will be used only for dev (not for production)
+version: '3.1'
+
+services:
+ captain-celebrities-db:
+   container_name: captain-celebrities-db
+   image: mysql
+   command: --default-authentication-plugin=mysql_native_password
+   restart: always
+   ports:
+     - 3306:3306
+   environment:
+     MYSQL_ROOT_PASSWORD: myPWD@2020!
+     MYSQL_DATABASE: captain-celebrities
+     MYSQL_USER: myUser
+     MYSQL_PASSWORD: 1678PWD@2020!

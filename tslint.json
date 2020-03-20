@@ -1,0 +1,3 @@
+{
+    "extends": "fikrah-ts-standards/lib/config/tslint"
+}

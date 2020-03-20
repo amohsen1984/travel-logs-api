@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.deploySubpath": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/bbb7c240-4083-461f-a9b5-554f9a47a025/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/TravelLogsAPI"
+}
