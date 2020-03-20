@@ -142,4 +142,11 @@ This service is a prototype so it lacks the following:
 
   - Implementing an authentication mechanism.
   - DB Credential should be securely stored in a tool like AWS/Azure VAULT and not in the env file.
-  - Pagination when getting logs.
+
+Future Work
+-----------
+  - Support Pagination when getting logs.
+  - Populate enviroment variables at run time with values stored in VAULT.
+  - Add more comments to the code.
+  - Create a CI pipeline to automate the deployment.
+
