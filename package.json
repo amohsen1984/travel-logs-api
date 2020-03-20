@@ -21,7 +21,7 @@
   "license": "MIT",
   "author": "Abdulelelah Ashour",
   "engines": {
-    "node": "10.15"
+    "node": "10.X"
   },
   "engineStrict": true,
   "dependencies": {

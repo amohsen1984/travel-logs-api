@@ -7,7 +7,7 @@ Architecture
 ------------
 The diagram below shows that the client side (mobile device) gets the data through the GraphQL service where it gets the data from a db (MySQL in our case). This diagram shows the components from very abstract level.
 
-![Architecture]("diagram.png")
+![Architecture](diagram.png)
 
 Installation
 ---------------
@@ -143,4 +143,3 @@ This service is a prototype so it lacks the following:
   - Implementing an authentication mechanism.
   - DB Credential should be securely stored in a tool like AWS/Azure VAULT and not in the env file.
   - Pagination when getting logs.
- 
