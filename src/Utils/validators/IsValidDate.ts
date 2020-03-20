@@ -6,7 +6,7 @@ import {
 import moment from "moment";
 
 export const IsValidDate = (validationOptions?: ValidationOptions) => {
-    return function(object: any, propertyName: string) {
+    return (object: any, propertyName: string) => {
         registerDecorator({
             name: "isValidDate",
             target: object.constructor,
